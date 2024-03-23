@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Noto+Sans+Khojki&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ceviche+One&family=Madimi+One&family=Noto+Sans+Khojki&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: content-box;
+}
+
+html,
+body {
+  background-color: rgb(7, 0, 34);
+}
+
+header nav img {
+  display: block;
+  justify-content: start;
+}
+
+header nav {
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 40px;
+  background-color: rgb(37, 0, 46);
+  padding: 10px;
+}
+
+header nav div {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  padding: 5px;
+}
+
+header nav img {
+  width: 30px;
+}
+
+header nav p a {
+  padding: 0px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+section .container {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+}
+
+section .primary {
+  display: block;
+}
+
+section .primary .saudacoes {
+  width: 18vw;
+  margin-top: 20%;
+  font-size: 1.4vw;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+section .primary .saudacoes p {
+  background-color: rgb(31, 0, 49);
+  width: 60%;
+  margin: 0px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+section .primary .escrita {
+  margin: 0px 50px;
+  text-align: center;
+}
+
+section .primary .escrita h1 {
+  text-align: start;
+  font-size: 6vw;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+
+section .primary .escrita h3 {
+  text-align: start;
+  font-size: 1.7vw;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(134, 134, 134);
+}
+
+section .container img {
+  display: block;
+  width: 100%;
+}
+
+section .conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+}
+
+section .conteudo p {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+section .conteudo p a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+  font-size: 1.2vw;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+footer a img {
+  display: inline-block;
+  width: 2.5vw;
+  margin-top: 55px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 1vw;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
